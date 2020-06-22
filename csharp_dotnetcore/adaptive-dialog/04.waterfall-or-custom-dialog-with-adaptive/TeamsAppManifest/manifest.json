@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0.0",
+  "id": "997e8cf4-be95-46d3-83c2-6a20ef87f192",
+  "packageName": "com.teams.sample.waterfallandadaptivebot",
+  "developer": {
+    "name": "EasyScrum",
+    "websiteUrl": "https://www.easyscrum.com",
+    "privacyUrl": "https://www.teams.com/privacy",
+    "termsOfUseUrl": "https://www.teams.com/termsofuser"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "name": {
+    "short": "Kузя",
+    "full": "Кузьма"
+  },
+  "description": {
+    "short": "Бот Кузя-скраммастер",
+    "full": "Бот Кузя создан на основе шаблона: WaterfallAndAdaptiveBot-full-description"
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [
+    {
+      "botId": "997e8cf4-be95-46d3-83c2-6a20ef87f192",
+      "scopes": [
+        "team"
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": []
+}

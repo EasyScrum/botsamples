@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0.0",
+  "id": "de331ef6-a653-415e-a38a-6007cf5117f1",
+  "packageName": "com.teams.sample.teamsstartnewthreadinchannel",
+  "developer": {
+    "name": "Boto_teamsStartThreadInChannel",
+    "websiteUrl": "https://www.microsoft.com",
+    "privacyUrl": "https://www.teams.com/privacy",
+    "termsOfUseUrl": "https://www.teams.com/termsofuser"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "name": {
+    "short": "Boto_TeamsStartThreadInChannel",
+    "full": "Boto_TeamsStartThreadInChannel"
+  },
+  "description": {
+    "short": "TeamsStartThreadInChannel",
+    "full": "TeamsStartThreadInChannel"
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [
+    {
+      "botId": "de331ef6-a653-415e-a38a-6007cf5117f1",
+      "scopes": [
+        "team"
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": []
+}
